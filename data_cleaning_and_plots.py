@@ -1,4 +1,3 @@
-# oats_climate_analysis_fixed.py
 import os
 import re
 import pandas as pd
@@ -310,4 +309,5 @@ else:
         print("Test H0: beta_drought = 0 -> p-value:", model2.pvalues.get("drought_severity_index"))
     else:
         print("Not enough rows to estimate OLS for drought model.")
+
 
